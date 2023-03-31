@@ -28,11 +28,13 @@ Additional aspects:
 - The function is defined as a property of the "exports" object.
 */
 
+
+const suma = require('../suma');
+
 var chai = require("chai");
 
 var expect = chai.expect;
 
-const suma = require('../suma');
 
 describe('suma_function', () => {
 

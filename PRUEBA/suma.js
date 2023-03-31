@@ -7,7 +7,6 @@ function suma(a, b) {
   }
   return a + b;
 }
-
 module.exports = suma;
 
 // Cuando se define una función o variable en un archivo de JavaScript, por defecto esa función o variable está limitada al alcance (scope) de ese archivo. Sin embargo, a veces queremos que esa función o variable esté disponible en otros archivos de JavaScript. Para hacer esto, podemos utilizar la palabra clave "exports" en Node.js.
